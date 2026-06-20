@@ -1,0 +1,7 @@
+@import "tailwindcss";
+
+@layer components {
+  .input-style {
+    @apply border border-gray-400 p-2 rounded-md outline-none      focus:border-indigo-300 focus:ring-1 focus:ring-indigo-300;
+  }
+}
